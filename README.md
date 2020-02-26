@@ -1,7 +1,11 @@
 # Python Mock Example
 
 This repository can be used as a base for junior Python developers to practice mocking.
-If the junior developer wants to apply Test Driven Development (TDD) he or she can apply the following steps:
+
+The `Car` class is a `Protocol` without an implementation. 
+This is by design because the system under test is the `Driver` class. 
+
+If the developer wants to apply Test Driven Development (TDD) he or she can apply the following steps:
 
 ## Testing `Driver.lock`
 
